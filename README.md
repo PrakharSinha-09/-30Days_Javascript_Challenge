@@ -1,4 +1,6 @@
-# 30 Days JavaScript Challenge
+# 30 Days JavaScript Challenge by Hitesh Chaudhary Sir... Accepted the Challenge 🚀
+
+![Challenge Banner](30DaysJS.png)
 
 Welcome to the **30 Days JavaScript Challenge**! This repository contains all the code and resources related to my journey of learning and practicing JavaScript over 30 days. Each day, I'll be tackling a new challenge, building projects, and documenting my progress.
 
