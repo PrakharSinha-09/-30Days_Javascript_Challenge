@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Example</title>
+    <style>
+        #hoverElement {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+        }
+        #toggleImage {
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Task 1: Change text content on button click -->
+    <p id="text">This is the original text.</p>
+    <button id="changeTextButton">Change Text</button>
+
+    <!-- Task 2: Toggle image visibility on double-click -->
+    <img id="toggleImage" src="image.jpg" alt="Sample Image">
+
+    <!-- Task 3 and 4: Mouse over/out events -->
+    <div id="hoverElement">Hover over me!</div>
+
+    <!-- Task 5 and 6: Keyboard events -->
+    <input type="text" id="inputField" placeholder="Type something...">
+    <p id="displayText"></p>
+
+    <!-- Task 7: Form submission -->
+    <form id="sampleForm">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 8: Select dropdown change -->
+    <select id="dropdown">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select>
+    <p id="selectedValue"></p>
+
+    <!-- Task 9 and 10: Event delegation -->
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
